@@ -11,7 +11,7 @@ SENDER_PASSWORD = "GMAIL_APP_PASSWORD"
 
 def send_rfq_email(to_email, vendor_name, project_id, material_name, quantity, rfq_id):
 
-    subject = f"RFQ-{rfq_id} | {project_id} | {material_name}""
+    subject = f"RFQ-{rfq_id} | {project_id} | {material_name}"
 
     body = f"""
 Dear {vendor_name},
