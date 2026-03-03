@@ -1,0 +1,6 @@
+.env
+token.json
+token.pickle
+Credentials.json
+procurement.db
+__pycache__/
